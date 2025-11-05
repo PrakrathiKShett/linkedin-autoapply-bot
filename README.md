@@ -129,8 +129,4 @@ Extension UI	Displays job cards correctly	✅ Passed
 
 **Prakrathi K Shetty**  
 📧 Email: [prakrathishetty7896@gmail.com](mailto:prakrathishetty7896@gmail.com)  
-🌐 GitHub: [PrakrathiKShett](https://github.com/PrakrathiKShett)
-
----<img width="1920" height="1020" alt="Screenshot 2025-11-05 181748" src="https://github.com/user-attachments/assets/cac9c26f-4876-4e5c-bdf5-91083338c200" />
-
-
+🌐 GitHub:https://github.com/PrakrathiKShett
