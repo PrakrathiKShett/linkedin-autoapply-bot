@@ -1,0 +1,19 @@
+{
+  "name": "linkedin-autoapply",
+  "version": "1.0.0",
+  "description": "",
+  "main": "options.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^24.29.0",
+    "tesseract.js": "^6.0.1"
+  }
+}

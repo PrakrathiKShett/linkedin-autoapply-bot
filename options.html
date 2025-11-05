@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LinkedIn Auto-Apply Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f8f9fa;
+      color: #222;
+    }
+    h2 {
+      color: #0073b1;
+    }
+    .filters, .applied-jobs {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin: 8px 0;
+    }
+    input {
+      padding: 6px;
+      width: 250px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #0073b1;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005f8f;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #0073b1;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h2>LinkedIn Auto-Apply Bot Dashboard</h2>
+
+  <div class="filters">
+    <h3>Filter Settings</h3>
+    <label>Job Keyword: <input id="keyword" type="text"></label>
+    <label>Location: <input id="location" type="text"></label>
+    <label>Experience Level: <input id="experience" type="text"></label>
+    <label>Job Type: <input id="jobType" type="text" placeholder="Full-time, Internship, etc."></label>
+    <button id="saveFilters">💾 Save Filters</button>
+  </div>
+
+  <div class="applied-jobs">
+    <h3>Applied Jobs</h3>
+    <table id="jobsTable">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Title</th>
+          <th>Company</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody id="jobsBody">
+        <tr><td colspan="4">No jobs applied yet.</td></tr>
+      </tbody>
+    </table>
+    <button id="exportCsv">⬇ Export CSV</button>
+    <button id="clearAll">🗑 Clear All</button>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
