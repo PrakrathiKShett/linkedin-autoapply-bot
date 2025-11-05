@@ -91,18 +91,6 @@ linkedin-autoapply-bot/
 ├── package.json         # Node dependencies
 └── appliedJobs.json     # Stored applied job data
 
-📸 Screenshots
-🔐 Register / Login Page
-
-<img width="1920" height="1080" alt="Screenshot 2025-11-05 181946" src="https://github.com/user-attachments/assets/cdbcaa99-c3d1-4b41-9d80-cca377ebe0c8" />
-
-<img width="1920" height="1020" alt="Screenshot 2025-11-05 181748" src="https://github.com/user-attachments/assets/3702abdf-7995-4fe0-9a6b-8f594b48ed85" />
-
-
-💼 Job Search Dashboard
-
-<img width="1920" height="1029" alt="Screenshot 2025-11-05 181654" src="https://github.com/user-attachments/assets/840a9d3b-5cb5-4763-92d1-af772604f72f" />
-
 
 🧾 Project Overview
 
